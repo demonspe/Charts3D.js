@@ -18,7 +18,7 @@ These are Javascript classes that allow you to get live charts that react to the
 ```
 <body>
     <canvas id="myCanvas" height="200" width="200"></canvas>
-    <script src="ChartPie3D.js"></script>
+    <script src="Charts3D.js"></script>
     <script>
         let chart1 = new ChartPie3D('myCanvas', 100, true);
         chart1.data = [
