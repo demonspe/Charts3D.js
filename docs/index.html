@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Open+Sans&effect=3d-float"></link>
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="c1" height="200" width="200"></canvas>
+
+    <script src="../Charts3D.js"></script>
+    <script>
+        let chart1 = new ChartPie3D('c1', 100, true);
+        chart1.data = [
+            { value: 100, ringColor: '#AAAAAA', thickness: 10, drawValue: true, fontSize: 40, fontColor: '#AAAAAA'},
+            { value: 87, ringColor: '#FFA500', thickness: 15, drawValue: true, fontColor:'#FFA500',  fontSize: 40, stroke: true},
+            { value: 57, ringColor: '#00AA00', thickness: 25, drawValue: true,  fontSize: 40, stroke: true}
+        ];
+        chart1.draw();
+    </script>
+</body>
+</html>
