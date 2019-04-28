@@ -1,5 +1,5 @@
 # Charts3D.js
-These are Javascript classes that allow you to get live charts that react to the movement of the mouse cursor
+These are Javascript classes that allow you to get live charts that react to the movement of the mouse cursor  
 [Click here => Demo](https://demonspe.github.io/Charts3D.js/)
 
 ## 1. ChartPie3D
